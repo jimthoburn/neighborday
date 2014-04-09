@@ -1,7 +1,12 @@
 body {
-  background-color: #a4e9ff;
-  font: 400 1em/1.5 Helvetica;
+  background: white;
+  font: 400 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #494949;
+}
+
+.container {
+  background-color: #a4e9ff;
+  padding: 1px 0;
 }
 
 .element {
@@ -43,6 +48,7 @@ body {
 }
 
 .image-1 {
+  margin-top: 1.5em;
   width: 41%;
   min-width: 250px;
   max-width: 500px;
@@ -134,7 +140,8 @@ body {
 .text-17,
 .text-7,
 .text-9 {
-  width: 39.1666666666%;
+  max-width: 33em;
+  padding: 0 1.5em;
   min-height: 25px;
   margin: 10px auto 0;
   font-weight: 400;
@@ -150,10 +157,12 @@ body {
 .text-4,
 .text-6,
 .text-8 {
+  /*
   width: 25.6666666666%;
+  */
   min-height: 25px;
   margin: 55px auto 0;
-  font: 1000 1.125em/1.38 brandon-grotesque;
+  font: bold 1.125em/1.38 "Brandon Grotesque W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -162,7 +171,8 @@ body {
 
 .text-11,
 .text-19 {
-  width: 39.1666666666%;
+  max-width: 33em;
+  padding: 0 1.5em;
   min-height: 25px;
   margin: 10px auto 0;
   font-size: 1.063em;
@@ -175,7 +185,8 @@ body {
 }
 
 .text-2 {
-  width: 52.8333333333%;
+  max-width: 45em;
+  padding: 0 1.5em 2.25em;
   min-height: 214px;
   margin: 65px auto 0;
   font-size: 1.25em;
@@ -185,13 +196,13 @@ body {
 }
 
 .text-3 {
-  width: 25.5833333333%;
+  max-width: 20em;
   margin: 60px auto 0;
   padding: 25px;
   border: 6px solid rgb(0, 0, 0);
-  font-family: brandon-grotesque;
+  font-family: "Brandon Grotesque W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
-  font-weight: 1000;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -199,15 +210,11 @@ body {
 }
 
 .text-5 {
-  width: 39.1666666666%;
+  max-width: 33em;
+  padding: 0 1.5em;
   min-height: 50px;
   margin: 10px auto 0;
   font-weight: 400;
   text-align: center;
   color: #494949;
-}
-
-.container {
-  background: white;
-  padding: 35px 0;
 }
