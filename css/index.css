@@ -4,6 +4,12 @@ body {
   color: #494949;
 }
 
+iframe {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   background-color: #a4e9ff;
   padding: 1px 0;
